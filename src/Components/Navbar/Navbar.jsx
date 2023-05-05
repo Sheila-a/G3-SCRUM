@@ -11,7 +11,7 @@ const Navbar = () => {
       </Link>
       <Search />
       <div className={design.NavEnd}>
-        <Link to="/register">
+        <Link to="/register" className={design.NavEnd_first}>
           <button>Sign Up</button>
         </Link>
         <Link to="login">

@@ -16,17 +16,21 @@
   color: #000000;
   z-index: 999;
 }
+.NavEnd button {
+  background-color: #d0d5dd;
+  padding: 10px 15px;
+  border: 1px solid #00595c;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-.NavEnd button:first-child {
+.NavEnd_first button {
   margin-right: 25px;
   background-color: #00595c;
   color: #fff;
 }
-
-.NavEnd button {
-  background-color: #d0d5dd;
-  padding: 10px 15px;
-  border: 0;
-  border-radius: 5px;
-  cursor: pointer;
+.NavEnd_first button:hover {
+  margin-right: 25px;
+  color: #00595c;
+  background-color: #fff;
 }
