@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Login } from "./Pages/Login/Login";
-import { Register } from "./Pages/Signup/Register";
+import { Login } from "./pages/Login/Login";
+import { Register } from "./pages/Signup/Register";
 import "./App.css";
-import ProductDetails from "./Pages/ProductDetails/ProductDetails";
-import ProductPage from "./Pages/ProductPage/ProductPage";
+import ProductDetails from "./pages/ProductDetails/ProductDetails";
+import ProductPage from "./pages/ProductPage/ProductPage";
 import Navbar from "./Components/Navbar/Navbar";
-import HomePage from "./Pages/homePage/HomePage";
+import HomePage from "./pages/homePage/HomePage";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
