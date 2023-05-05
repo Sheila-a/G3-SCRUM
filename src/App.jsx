@@ -6,6 +6,8 @@ import "./App.css";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import ProductPage from "./Pages/ProductPage/ProductPage";
 import Navbar from "./Components/Navbar/Navbar";
+import HomePage from "./Pages/homePage/HomePage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [currentForm, setCurrentForm] = useState("Login");
@@ -17,6 +19,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={<HomePage />} />
         {currentForm === "Login" ? (
           <Route path="/login" element={<Login onFormSwitch={toggleForm} />} />
         ) : (
@@ -28,6 +31,7 @@ function App() {
         <Route path="/product-details/:itemCode" element={<ProductDetails />} />
         <Route exact path="/product-page" element={<ProductPage />} />
       </Routes>
+      <Footer />
     </>
   );
 }

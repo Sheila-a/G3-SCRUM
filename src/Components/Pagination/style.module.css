@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  bottom: 0;
+}
+
+.pagination span {
+  font-size: 25px;
+  color: #00595c;
+  cursor: pointer;
+}
+.pagination span:hover {
+  color: #175d5f;
+  cursor: pointer;
+}
+
+.pagination span:first-child {
+  margin-right: 20px;
+}
+
+.pagination span:last-child {
+  margin-left: 20px;
+}
+
+.pagination a {
+  text-decoration: none;
+}
+
+.pagination ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+}
+
+.active {
+  border-radius: 5px;
+  background-color: grey;
+}

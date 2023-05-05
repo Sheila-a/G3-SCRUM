@@ -1,0 +1,14 @@
+.PP_Main {
+  /* width: 100%; */
+  margin: 50px 10vw;
+  display: flex;
+}
+
+.PP_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 20px;
+}
