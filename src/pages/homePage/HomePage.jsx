@@ -15,10 +15,13 @@ import saver from "../../assets/images/saver.png"
 import comingsoon from "../../assets/images/comingsoon.png"
 import { AiOutlineRight } from "react-icons/ai";
 import SeeAll from "./SeeAll"
+import Navbar from "../../Components/Navbar/Navbar"
+import Footer from "../../Components/Footer"
 
 const HomePage = () => {
   return (
     <div>
+      <Navbar />
 <div className={styles.buy} style={{backgroundImage: `url(${dog1})`}}>
   <div className={styles.align}>
   <h1 className={styles.h}>Dogs Make Our Lives Better.</h1>
@@ -134,11 +137,10 @@ const HomePage = () => {
     <AiOutlineRight className={styles.seeallp}/>
     </div>
   </div>
-  <SeeAll />  
+  <SeeAll /> 
+  <Footer /> 
 </div>
-
-
-  )
+)
 }
 
 export default HomePage;
