@@ -1,0 +1,17 @@
+.PDC_Details_wrapper {
+  margin: 20px 0 20px 10vw;
+}
+.PDC_Details_wrapper h2 {
+  margin-bottom: 20px;
+}
+
+.PDC_Details_container {
+  display: flex;
+  gap: 150px;
+}
+
+.PDC_Details_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

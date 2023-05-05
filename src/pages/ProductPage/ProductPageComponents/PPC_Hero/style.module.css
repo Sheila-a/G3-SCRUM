@@ -1,0 +1,23 @@
+.PPC_Hero_wrapper {
+  margin: 0 10vw;
+  padding: 150px 0 0 0;
+}
+
+.PPC_Hero_container {
+  background-color: #f2f4f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px 0px 70px;
+  border-radius: 8px;
+}
+
+.p1,
+.p2 {
+  color: #014547;
+  text-align: center;
+}
+
+.p1 {
+  font-size: 30px;
+}

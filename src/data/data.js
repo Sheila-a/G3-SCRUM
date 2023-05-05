@@ -1,0 +1,85 @@
+const DogData = [
+  {
+    categories: "Rottweiler",
+    items: [
+      {
+        name: "Max",
+        img: "https://i.ibb.co/dtXnzf3/rottweller-1.png",
+        price: "65,000",
+        itemCode: "RO001",
+        category: "Rottweiler",
+        size: "Medium",
+        height: "55-60 cm",
+        color: "Sable",
+        review: "4.5 stars",
+      },
+      {
+        name: "Rocky",
+        img: "https://i.ibb.co/qjFqcGG/rottweller-2.png",
+        price: "75,000",
+        itemCode: "RO002",
+        category: "Rottweiler",
+        size: "Large",
+        height: "60-65 cm",
+        color: "Black and Tan",
+        review: "4.5 stars",
+      },
+    ],
+  },
+  {
+    categories: "Bulldog",
+    items: [
+      {
+        name: "Milo",
+        img: "https://i.ibb.co/qg00qXy/bulldog-1.png",
+        price: "40,000",
+        itemCode: "BD001",
+        category: "Bulldog",
+        size: "Small",
+        height: "30-40 cm",
+        color: "White",
+        review: "4.5 stars",
+      },
+      {
+        name: "Daisy",
+        img: "https://i.ibb.co/5TymMjS/bulldog-2.png",
+        price: "55,000",
+        itemCode: "BD002",
+        category: "Bulldog",
+        size: "Medium",
+        height: "40-50 cm",
+        color: "White",
+        review: "4.5 stars",
+      },
+    ],
+  },
+  {
+    categories: "German Shepherd",
+    items: [
+      {
+        name: "Bella",
+        img: "https://i.ibb.co/VLcg16X/german-S-1.png",
+        price: "105,000",
+        itemCode: "GS001",
+        size: "Medium",
+        height: "55-60 cm",
+        category: "German Shepherd",
+        color: "Sable",
+        review: "5 stars",
+      },
+      {
+        name: "Luna",
+        img: "https://i.ibb.co/sys4XHx/german-S-2.png",
+        price: "120,000",
+        itemCode: "GS002",
+        size: "Large",
+        category: "German Shepherd",
+        height: "60-65 cm",
+        color: "Black and Tan",
+        review: "4.5 stars",
+      },
+    ],
+  },
+];
+
+export default DogData;

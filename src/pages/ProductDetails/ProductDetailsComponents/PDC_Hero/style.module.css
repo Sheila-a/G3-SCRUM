@@ -1,0 +1,69 @@
+.PDC_Hero_container {
+  padding-top: 150px;
+}
+
+.PDC_Hero_container h1 {
+  color: #00595c;
+  text-align: center;
+}
+
+.PDC_Hero {
+  display: flex;
+  justify-content: left;
+  gap: 50px;
+  align-items: center;
+  margin: 80px 10vw;
+}
+
+.PDC_Hero_img {
+  height: 400px;
+  width: 400px;
+  /* object-fit: contain; */
+}
+
+.PDC_Hero_inner {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.PDC_Hero_inner_title {
+  font-size: 2.5em;
+}
+
+.PDC_Hero_inner_price {
+  color: #e01507;
+  font-size: 2em;
+}
+
+.PDC_Hero_inner_details {
+  font-size: 13px;
+}
+
+.PDC_Hero_inner_details span {
+  color: #72767a;
+}
+
+.PDC_Hero_inner_details p {
+  margin-bottom: 5px;
+}
+
+.PDC_Hero_inner_details input {
+  margin-right: 5px;
+}
+
+.PDC_Hero_btn {
+  background-color: #00595c;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #00595c;
+  padding: 12px 70px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.PDC_Hero_btn:hover {
+  color: #00595c;
+  background-color: #fff;
+  transition: 0.3s ease;
+}

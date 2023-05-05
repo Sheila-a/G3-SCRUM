@@ -1,0 +1,64 @@
+.PPC_Card_container {
+  background-color: #f9fafb;
+  width: 250px;
+  border-radius: 8px;
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); */
+  transition: transform 0.5s ease-in-out;
+}
+
+.PPC_Card_container:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.PPC_Card_container a {
+  text-decoration: none;
+}
+
+.PPC_Card_img {
+  width: 250px;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.PPC_Card_btn {
+  border: 0;
+  background: none;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.PPC_Card_btn a {
+  text-decoration: none;
+  color: #00595c;
+  font-size: 15px;
+}
+
+.PPC_Card_btn span {
+  margin-left: 10px;
+}
+
+.PPC_Card_btn:hover {
+  font-weight: 700;
+  transition: 0.3s ease-in;
+}
+.PPC_Card_btn:hover span {
+  margin-left: 1rem;
+  transition: 0.3s ease-in;
+  font-weight: 700;
+}
+
+.PPC_Card_lower {
+  padding: 20px;
+  width: 100%;
+}
+
+.PPC_Card_lower h4 {
+  color: #667085;
+}
+.PPC_Card_lower h3 {
+  color: #101828;
+  margin: 10px 0;
+}
